@@ -1,5 +1,6 @@
 <footer class="footer" role="contentinfo">
 	<div class="inner">
+	<div id="footercredit">© Martin Baynton 2014</div>
 		<nav class="footernav">
 			<ul>
 				<% loop $Menu(1) %>
@@ -7,5 +8,9 @@
 				<% end_loop %>
 			</ul>
 		</nav>
+		
+		
+	
 	</div>
+	
 </footer>

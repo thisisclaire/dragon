@@ -7,7 +7,7 @@
 </nav>
 
 
-<a id="primarymobilebutton" href="#">open</a>
+<a id="primarymobilebutton" href="#">Menu</a>
 <nav class="primarymobile">
 	<ul>
 		<% loop $Menu(1) %>

@@ -1,8 +1,6 @@
-<div class="content-container unit size3of4 lastUnit">
-	<article>
-		<div id="Banner">
-  <img src="http://www.silverstripe.org/themes/silverstripe/images/sslogo.png" alt="Homepage image" />
-</div>
+<% include SideBar %>
+<div class="content-container">
+	<article class="typography">
 		<div class="content">$Content</div>
 	</article>
 		$Form

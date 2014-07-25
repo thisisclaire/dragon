@@ -74,16 +74,46 @@ body {
 /* mobile */
 
 .header .inner .primarymobile {
-	background:rgb(0,0,0);
+	background:#9bd0e2;
 	position:absolute;
 	top:100px;
 	left:10px;
 	right:10px;
-	color:#FC0;
+	color:#000;
 	font-size:18px;
 	line-height: 40px;
+	font-weight:bold;
 	padding: 20px 20px 20px 20px;
+	border: 2px solid #c0e9f5;
+    border-radius: 5px;
+	text-indent:10px;
 	}
+	
+	
+	.header .inner .primarymobile ul li a:visited{
+		color:#000;
+		}
+	.header .inner .primarymobile ul li:hover{
+		background:#c0e9f5;
+		border-radius: 5px;
+		}
+
+.header .inner .primarymobile ul li#page6 a{
+	padding-left:20px;
+	font-weight:100;
+	}
+
+.header .inner .primarymobile ul li#subpage7 a{
+	background:url(../images/facebook-up-tiny.png) no-repeat center top;
+	height:25px;
+	display:block;
+	color:#9bd0e2;
+	font-size:10px;
+	}
+
+.header .inner .primarymobile ul li#subpage7 a:hover{
+	background:url(../images/facebook-hover-tiny.png) no-repeat center top;
+}
 
 @media only screen 
 and (max-width : 500px) {
@@ -103,7 +133,7 @@ and (max-width : 500px) {
 .primarymobile {display:none;}
 
 @media only screen 
-and (max-width : 350px) {
+and (max-width : 450px) {
 	#primarymobilebutton {
 	background:url(../images/coconuts-menu-mobile-up2.png) no-repeat top center;
 	height:105px;
@@ -152,7 +182,7 @@ article{
 	margin:0px auto;
 	background:#191919;
 	position:relative;
-	top:110px;
+	top:90px;
 	left:10px;
 	right:10px;
 		}
@@ -162,4 +192,11 @@ article{
  	color: #fff;
 	float:left;
 	padding: 20px 10px 20px 20px;
+	text-align:center;
+	}
+	
+.footer .inner #footercredit {
+	clear:left;
+	color:#fff;
+	text-align:center;	
 	}
