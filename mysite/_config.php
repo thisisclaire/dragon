@@ -42,3 +42,5 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
 
 // Set the site locale
 i18n::set_locale('en_US');
+
+//Object::add_extension('SiteConfig', 'MySiteConfig');
