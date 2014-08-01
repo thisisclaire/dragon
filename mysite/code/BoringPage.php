@@ -1,5 +1,5 @@
 <?php
-class HomePage extends Page {
+class BoringPage extends Page {
 	
 		 private static $has_one = array(
         'HeaderImage' => 'Image'
@@ -21,11 +21,6 @@ class HomePage extends Page {
 	
 	
 	
-	}
-class HomePage_Controller extends Page_Controller {
-	
-	
-
 }
-
-
+class BoringPage_Controller extends Page_Controller {
+}

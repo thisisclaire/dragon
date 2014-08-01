@@ -153,8 +153,19 @@ and (max-width : 450px) {
 	.header .inner .primary{display:none;}
 	}
 
-/* HomeBanner */
+/* main HomeBannerImage */
 
+.main #HomeHeaderImage {
+	 max-width:960px;
+	 margin:0px auto;
+	 display:block;
+	 text-align:center;
+	 background-size:contain;
+	}
+
+.HeaderImgCont {
+	background:#FFF;
+	}
 
 /* main */
 
@@ -173,8 +184,8 @@ article{
 /* footer */	
 	
 .footer{
-	height:180px;
-	background:url(../images/footer-1bx.jpg) repeat-x;
+	height:300px;
+	background:url(../images/footer-1bx.jpg) repeat-x #1a1a1a;
 	}
 
 

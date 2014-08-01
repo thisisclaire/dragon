@@ -23,6 +23,12 @@
 <body class="$ClassName" >
 <% include Header %>
 <div class="main">
+<div class="HeaderImgCont">
+	 	<div id="HomeHeaderImage">
+			 $HeaderImage
+ 		</div>   
+	</div>         
+
 <div class="inner">
 		$Layout
 </div>
