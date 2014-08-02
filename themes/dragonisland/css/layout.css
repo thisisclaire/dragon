@@ -25,7 +25,6 @@ body {
 }
 
 .header .inner .primary{
-/*	background:url(../images/coconuts-menu-whole.png) no-repeat top left;*/
 	background-size:contain;
 	width:50%;
 	max-width:400px;
@@ -70,6 +69,9 @@ body {
 	background-size:contain;
 	width:10%;
 }
+
+
+
 
 /* mobile */
 
@@ -168,6 +170,32 @@ and (max-width : 450px) {
 	}
 
 /* main */
+
+
+.main .inner .secondary{
+	background:#9bd0e2;
+	//position:absolute;
+	//top:450px;
+	//left:50px;
+	color:#000;
+	font-size:18px;
+	line-height: 30px;
+	font-weight:bold;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid #c0e9f5;
+    border-radius: 5px;
+	text-indent:10px;
+	}
+	
+.main .inner .secondary ul li a{
+
+}
+
+.main .inner .secondary ul li:hover{
+		background:#c0e9f5;
+		border-radius: 5px;
+		}
+
 
 .main{
 	background:url(../images/bg-tile-bottomt.jpg) repeat-x bottom;}

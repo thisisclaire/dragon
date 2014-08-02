@@ -43,3 +43,4 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
 // Set the site locale
 i18n::set_locale('en_US');
 
+HtmlEditorConfig::get('cms')->setOption('content_css', 'cms/css/editor.css, themes/dragonisland/css/editor.css');
