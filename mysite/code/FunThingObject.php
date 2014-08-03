@@ -10,7 +10,8 @@
  
   private static $has_one = array(
     'Image' => 'Image',
-    'FunPage' => 'FunPage'
+    'FunPage' => 'FunPage',
+	'File' => 'File'
   );  
   
   }

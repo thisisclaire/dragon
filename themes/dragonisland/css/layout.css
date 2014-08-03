@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image:url(../images/bg-tile-body.jpg);
     background-position: 0px 0px;
@@ -134,6 +139,7 @@ and (max-width : 500px) {
 #primarymobilebutton {display:none;}
 .primarymobile {display:none;}
 
+
 @media only screen 
 and (max-width : 450px) {
 	#primarymobilebutton {
@@ -153,30 +159,33 @@ and (max-width : 450px) {
 		}
 		
 	.header .inner .primary{display:none;}
+	
+	.main .inner .secondary{display:none;}
 	}
 
 /* main HomeBannerImage */
 
 .main #HomeHeaderImage {
-	 max-width:960px;
+	 max-width:100%;
 	 margin:0px auto;
 	 display:block;
 	 text-align:center;
-	 background-size:contain;
+	
 	}
+.main #HomeHeaderImage img{ max-width:100%;}
 
 .HeaderImgCont {
 	background:#FFF;
+	padding:0px;
 	}
+	
+
 
 /* main */
 
 
 .main .inner .secondary{
 	background:#9bd0e2;
-	//position:absolute;
-	//top:450px;
-	//left:50px;
 	color:#000;
 	font-size:18px;
 	line-height: 30px;
@@ -203,7 +212,7 @@ and (max-width : 450px) {
 
 .main .inner{
 	max-width:960px;
-	margin:0px auto;
+	margin:-20px auto;
 	}
 	
 article{
