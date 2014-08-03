@@ -40,31 +40,31 @@ body {
 	height:150px;
 	text-indent:-9999px;
 }
-.header .inner .primary ul li#page2 a{
+.header .inner .primary ul li#RefFun a{
 	background:url(../images/menu-Fun-up1x.jpg) no-repeat top left;
 	background-size:contain;
 }
 
-.header .inner .primary ul li#page3 a{
+.header .inner .primary ul li#RefBoring a{
 	background:url(../images/menu-Boring-up1x.jpg) no-repeat top left;
 	background-size:contain;
 }
-.header .inner .primary ul li#page2 a:hover{
+.header .inner .primary ul li#RefFun a:hover{
 	background:url(../images/menu-Fun-hover1x.jpg) no-repeat top left;
 	background-size:contain;
 }
 
-.header .inner .primary ul li#page3 a:hover{
+.header .inner .primary ul li#RefBoring a:hover{
 	background:url(../images/menu-Boring-hover1x.jpg) no-repeat top left;
 	background-size:contain;
 }
 
-.header .inner .primary ul li#page7 a{
+.header .inner .primary ul li#RefFacebook a{
 	background:url(../images/facebook-up.png) no-repeat top right;
 	background-size:contain;
 	width:10%;
 }
-.header .inner .primary ul li#page7 a:hover{
+.header .inner .primary ul li#RefFacebook a:hover{
 	background:url(../images/facebook-hover.png) no-repeat top right;
 	background-size:contain;
 	width:10%;
@@ -100,12 +100,12 @@ body {
 		border-radius: 5px;
 		}
 
-.header .inner .primarymobile ul li#page6 a{
+.header .inner .primarymobile ul li#RefResources a{
 	padding-left:20px;
 	font-weight:100;
 	}
 
-.header .inner .primarymobile ul li#subpage7 a{
+.header .inner .primarymobile ul li#RefFacebook a{
 	background:url(../images/facebook-up-tiny.png) no-repeat center top;
 	height:25px;
 	display:block;
@@ -113,7 +113,7 @@ body {
 	font-size:10px;
 	}
 
-.header .inner .primarymobile ul li#subpage7 a:hover{
+.header .inner .primarymobile ul li#RefFacebook a:hover{
 	background:url(../images/facebook-hover-tiny.png) no-repeat center top;
 }
 

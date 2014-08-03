@@ -2,10 +2,26 @@
 class Page extends SiteTree {
 
 	private static $db = array(
+		'PageRef' => 'Varchar'
 	);
 
 	private static $has_one = array(
 	);
+
+	 function getCMSFields() {
+        
+        $fields = parent::getCMSFields(); 
+        
+        $fields->addFieldToTab(
+            'Root.Name',  
+            $Textfield = new TextField(
+                $name = 'PageRef',
+                $title = 'Reference to Page relates to CSS MARTIN DON\'T CHANGE'
+            )   
+        );
+        return $fields;         
+    }   
+
 
 }
 class Page_Controller extends ContentController {
