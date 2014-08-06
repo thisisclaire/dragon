@@ -4,12 +4,13 @@
 			<% with $Level(1) %>
 				<li class="$LinkingMode">
 					<a href="$Link" class="$LinkingMode" title="Go to the $Title.XML page">
-						<h3>$MenuTitle</h3>
+						
 					</a>
 					</li>
 					<ul>
 					<% include SidebarMenu %>
 				</ul>
+				<div class="clear"></div>
 			<% end_with %>
 		</nav>
 	<% end_if %>
