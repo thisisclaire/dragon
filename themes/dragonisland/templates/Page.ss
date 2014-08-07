@@ -23,11 +23,19 @@
 <body class="$ClassName" >
 <% include Header %>
 <div class="main">
-<div class="HeaderImgCont">
-	 	<div id="HomeHeaderImage">
-			 $HeaderImage
- 		</div>   
-	</div>         
+
+<% if $ClassName = FunPage %>
+	<div id="FunPageHeader">div and stuff for fun page only</div>
+<% else %>
+
+ <div class="HeaderImgCont">
+   <div id="HomeHeaderImage">
+    $HeaderImage
+  </div>   
+ </div> 
+ 
+<% end_if %> 
+     
 
 <div class="inner">
 		$Layout
