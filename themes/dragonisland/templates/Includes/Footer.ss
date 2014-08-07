@@ -3,7 +3,7 @@
 	<div class="footerCredit">
 		<ul>
 			<li>© Martin Baynton and Terri Baynton 2014</li>
-			<li><a href="http://www.clairehoulihan.com/" target="blank">Web site by Claire Houlihan</a></li>
+			<li><a href="http://www.clairehoulihan.com/" target="blank">Website by Claire Houlihan</a></li>
 		</ul>
 		<div class="clear"></div>
 	</div>

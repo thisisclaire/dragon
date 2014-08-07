@@ -25,8 +25,8 @@
 <div class="main">
 
 <% if $ClassName = FunPage %>
-	<div class="FunImgCont>
-		<div id="FunPageHeaderImage">div and stuff for fun page</div>
+	<div class="FunImgCont">
+		<div id="FunPageHeaderImage"></div> 
 	</div>
 <% else %>
 

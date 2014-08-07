@@ -75,7 +75,16 @@ body {
 	width:10%;
 }
 
-
+.header .inner .primary ul li#RefInsta a{
+	background:url(../images/insta-up.png) no-repeat top right;
+	background-size:contain;
+	width:10%;
+}
+.header .inner .primary ul li#RefInsta a:hover{
+	background:url(../images/insta-hover.png) no-repeat top right;
+	background-size:contain;
+	width:10%;
+}
 
 
 /* mobile */
@@ -181,23 +190,26 @@ and (max-width : 450px) {
 	padding:0px;
 	}
 	
-	/* Fun Page BannerImage */
+	/* FUN Page BannerImage */
 	
-.main .HeaderImgCont #FunPageHeaderImage {
-	 max-width:100%;
-	 margin:0px auto;
-	 display:block;
-	 text-align:center;
-	 background:#F00;
-		}
+.main .FunImgCont #FunPageHeaderImage {
+	max-width:100%;
+ 	 margin:0px auto;
+ 	 display:block;
+ 	text-align:center;
+	}
 		
-.main .HeaderImgCont #FunPageHeaderImage img{
-	 max-width:100%;}
+.main .FunImgCont #FunPageHeaderImage img{max-width:100%;
+	
+	}
 
 .FunImgCont {
-	background:#FFF;
 	padding:0px;
+	background-size:contain;
+	height:303px;
+	background:url(../images/fun-header1.jpg) repeat-x #fff;
 	}
+	
 	
 
 
