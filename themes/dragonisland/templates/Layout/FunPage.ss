@@ -2,20 +2,25 @@
 <% include SideBar %>
 <div class="content-container">
 	<article class="typography">
-		<h1>$Title</h1>
+
 		<div class="content">$Content</div>
 		
 		
 		<% loop FunThingObjects %>
-			<h3>$Title</h3>
-			$Details
-			$Image
-			<a href="$File.Link" target="_blank" >Show activity</a>
-			
+			<div class="FunThingCont">
+				<div class=PodLeft>$Image</div>
+				
+				<div class=PodRight>
+					<h3>$Title</h3>
+					$Details
+					<a href="$File.Link" target="_blank" >Show activity</a>
+				</div>
+						
+			</div>
 		
 		
 		<% end_loop %>
-		
+		<div class="clear"></div>
 	</article>
 		$Form
 		$PageComments

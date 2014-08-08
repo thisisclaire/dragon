@@ -210,9 +210,38 @@ and (max-width : 450px) {
 	background:url(../images/fun-header1.jpg) repeat-x #fff;
 	}
 	
-	
+		/* FUN Page data objects */
+.FunThingCont {
+	background:#fff;
+	margin-bottom:20px;
+	margin-right:20px;
+	padding: 10px 10px 10px 10px;
+	width:400px;
+	height:178px;
+	float:left;
+}
 
+.PodLeft{
+	float:left;
+	padding-right:20px;
+}
+.PodRight{
+	float:left;
+}
 
+.PodRight a{
+	border: 2px solid #13a3c7;
+	padding:5px;
+	width:50px;
+	color:#000;
+	font-weight:bold;
+}
+
+.PodRight a:hover{
+ background:#9bd0e2;
+ color:#000;
+ border-bottom:2px solid #13a3c7;
+}
 
 /* main */
 
