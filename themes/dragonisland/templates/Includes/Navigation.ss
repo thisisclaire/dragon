@@ -1,7 +1,7 @@
 <nav class="primary">
 	<ul>
 		<% loop $Menu(1) %>
-			<li class="$LinkingMode" id="$PageRef"><a href="$Link" <% if $PageRef = RefFacebook %> target = "_blank" <% end_if %> title="$Title.XML">$MenuTitle.XML</a></li>
+			<li class="$LinkingMode" id="$PageRef"><a href="$Link" <% if $PageRef = RefFacebook || $PageRef = RefInsta %> target = "_blank" <% end_if %> title="$Title.XML">$MenuTitle.XML</a></li>
 		<% end_loop %>
 	</ul>
 </nav>
