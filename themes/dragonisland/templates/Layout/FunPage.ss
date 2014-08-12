@@ -8,7 +8,7 @@
 		
 		<% loop FunThingObjects %>
 			<div class="FunThingCont">
-				<div class=PodLeft>$Image</div>
+				<div class=PodLeft>$Image.CroppedImage(129,179)</div>
 				
 				<div class=PodRight>
 					<h3>$Title</h3>

@@ -172,7 +172,7 @@ and (max-width : 450px) {
 	.header .inner .primary{display:none;}
 	
 	.main .inner .secondary{display:none;}
-	}
+}
 
 /* main HomeBannerImage */
 
@@ -204,12 +204,20 @@ and (max-width : 450px) {
 	}
 
 .FunImgCont {
-	padding:0px;
-	background-size:contain;
+	padding:0px;	
 	height:303px;
 	background:url(../images/fun-header1.jpg) repeat-x #fff;
+	background-size:auto 100%;
 	}
 	
+	
+@media only screen and (max-width : 600px) {
+	.FunImgCont { height:250px; }
+}
+
+@media only screen and (max-width : 400px) {
+	.FunImgCont { height:150px; }
+}
 		/* FUN Page data objects */
 .FunThingCont {
 	background:#fff;
@@ -257,10 +265,13 @@ and (max-width : 450px) {
     margin: 0;
     padding: 0;
     overflow: hidden;
+	text-align:center;
 	}
 	
 .main .inner .secondary ul li{
-	float:left;
+	float:none;
+	display:inline-block;
+	margin:0 -5px 0 0;
 	}
 		
 .main .inner .secondary ul li a{
