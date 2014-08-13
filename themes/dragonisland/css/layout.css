@@ -222,19 +222,27 @@ and (max-width : 450px) {
 .FunThingCont {
 	background:#fff;
 	margin-bottom:20px;
-	margin-right:20px;
-	padding: 10px 10px 10px 10px;
-	width:400px;
+	margin-right:2%;
+	padding: 2%;
+	width:44%; /* width: 46 + padding left: 2 + padding right: 2 + margin: 2%*/
 	height:178px;
 	float:left;
 }
 
+@media only screen and (max-width : 600px) {
+	.FunThingCont { width:96%; margin-right:0; }
+}
+
 .PodLeft{
 	float:left;
-	padding-right:20px;
+	width:45%
 }
+
+.PodLeft img { max-width:80%;}
+
 .PodRight{
 	float:left;
+	width:55%;
 }
 
 .PodRight a{
