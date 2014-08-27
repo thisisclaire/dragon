@@ -6,3 +6,5 @@
 
 @import "../../simple - Copy/css/typography.css?2";
 body.mceContentBody{font-size:13px;}
+
+.borderedImage { border: 5px solid #d7d7d7; }

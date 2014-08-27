@@ -224,9 +224,14 @@ and (max-width : 450px) {
 	margin-bottom:20px;
 	margin-right:2%;
 	padding: 2%;
-	width:44%; /* width: 46 + padding left: 2 + padding right: 2 + margin: 2%*/
-	height:178px;
+	width:44%; /* width: 46 + padding left: 2 + padding right: 2 + margin: 2%*/	
 	float:left;
+}
+
+.FunThingCont img { 
+	display:block;
+	border: 5px solid #d7d7d7;
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -248,9 +253,10 @@ and (max-width : 450px) {
 .PodRight a{
 	border: 2px solid #13a3c7;
 	padding:5px;
-	width:50px;
+	width:90px;
 	color:#000;
 	font-weight:bold;
+	display:block;
 }
 
 .PodRight a:hover{
@@ -321,10 +327,13 @@ article{
 	background:#191919;
 	position:relative;
 	top:90px;
-	left:10px;
-	right:10px;
+	/*left:10px;
+	right:10px;*/
 		}
 		
+
+.footer .inner .footernav  { padding:0px 10px; }
+
 .footer .inner .footernav ul li a{
 	display:block;
  	color: #fff;
@@ -344,6 +353,7 @@ article{
 	
 	
 /* footer credits */	
+.footer .inner .footerCredit { padding:0 20px;}
 
 .footer .inner .footerCredit ul li{
 	color:#fff;

@@ -15,6 +15,8 @@
 					$Details
 					<a href="$File.Link" target="_blank" >Show activity</a>
 				</div>
+				
+				<div class="clear"></div>
 						
 			</div>
 		

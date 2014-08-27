@@ -76,7 +76,7 @@ body {
 
 
 /* PARAGRAGHS */
-.typography  p { font-size: 13px; line-height: 20px; margin: 0 0 20px; }
+.typography  p { font-size: 15px; line-height: 22px; margin: 0 0 20px; }
   .typography .intro {
       font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif;
       font-size: 22px;
@@ -158,9 +158,14 @@ body {
 /* IMAGES 
 -------------------------------------------- */
 .typography img {
-    border: 5px solid #d7d7d7;
+    
     height: auto; /* resets the image height so that it maintains its aspect ratio when width is set */
 }
+.typography img.borderedImage {
+	border: 5px solid #d7d7d7;
+}
+
+
 .typography img.left {
     float: left;
     max-width: 50%;
