@@ -16,9 +16,9 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
    $databaseConfig = array(
 		"type" => 'MySQLDatabase',
 		"server" => 'localhost',
-		"username" => 'claire_dragonusr',
-		"password" => 'R@&1zTE-Pd_S',
-		"database" => 'claire_dragon',
+		"username" => 'dragonis_usr',
+		"password" => '-&SlDm@x_aKD',
+		"database" => 'dragonis_db',
 		"path" => '',
 	);
 	
