@@ -10,7 +10,7 @@ class NewsPage extends Page {
 		$fields = parent::getCMSFields();
 		
 		$gridFieldConfig = GridFieldConfig_RecordEditor::create();
-		$gridfield = new GridField("News", "News", $this->NewsObjects(), $gridFieldConfig);   
+		$gridfield = new GridField("News", "News", $this->NewsObjects()->sort('ArticleDate desc'), $gridFieldConfig);   
 		$fields->addFieldToTab('Root.News', $gridfield);
 		
 		return $fields;

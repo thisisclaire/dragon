@@ -6,11 +6,13 @@
 		
 		
 		<div class="NewsObjects">
-			<% loop NewsObjects %>
+			<% loop NewsObjects.Sort(ArticleDate desc).Reverse %>
 				<div class="News">				
 						<h3>$Title</h3>
-						<h4>$Date</h4>
-						$Details						
+						<h4>$SubTitle $ArticleDate</h4>
+						$Details
+						<div class="clear"></div>
+						<hr />						
 				</div>		
 			<% end_loop %>
 		</div>
